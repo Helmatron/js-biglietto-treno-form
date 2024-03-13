@@ -16,8 +16,8 @@ const buttonElement = document.getElementById('submit') // object
 buttonElement.addEventListener('click', function() {
     
     //  Recupero delle informazioni km e età
-    const km = inputKmElement.value
-    const age = inputAgeElement.value
+    const km = parseFloat(inputKmElement.value);
+    const age = parseFloat(inputAgeElement.value);
     console.log(km, age)
 
         // validare i dati
